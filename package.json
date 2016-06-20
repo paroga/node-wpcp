@@ -1,0 +1,33 @@
+{
+  "name": "wpcp",
+  "version": "0.0.0",
+  "description": "WebProcessControlProtocol",
+  "main": "index.js",
+  "scripts": {
+    "cover": "istanbul cover _mocha",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paroga/node-wpcp"
+  },
+  "keywords": [
+    "cbor",
+    "websocket",
+    "wpcp"
+  ],
+  "author": "Patrick Gansterer <paroga@paroga.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/paroga/node-wpcp/issues"
+  },
+  "homepage": "https://github.com/paroga/node-wpcp",
+  "dependencies": {
+    "cbor": "^1.0.4",
+    "websocket": "^1.0.23"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "sinon": "^1.16.1"
+  }
+}
